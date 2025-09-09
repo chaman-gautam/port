@@ -14,7 +14,7 @@ import Singlepage from "./pages/Singlepage";
 import Resume from "./pages/Resume";
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/port">
       {/* navbar  */}
       <div className="flex items-center justify-center sticky top-0 z-50 ">
         <Navbar />
